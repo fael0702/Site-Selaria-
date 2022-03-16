@@ -1,0 +1,153 @@
+.card {
+    display: inline-block;
+    margin: 20px;
+    border: 5px solid;
+    background-color: #964b006e;
+    border-color: #572c02;
+    border-radius: 8px; 
+    margin: 20px;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.principal {    
+    border: 5px solid;
+    background-color: #964b006e;
+    border-color: #572c02;
+    border-radius: 8px; 
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+header ul li {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+header img {
+    width: 80px;
+    height: 40%; 
+    cursor: pointer;
+} 
+
+.social {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.social a span {
+    margin-left: 6px;
+    display: none;
+}
+
+.social a:hover span {
+    display: inline;
+}
+
+.social img {
+    width: 32px;
+}
+
+.social a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.redes img {
+    width: 52px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+ul {
+    margin-top: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30;
+}
+
+.menu {
+    background: transparent;
+    align-items: center;
+    text-align: center;
+}
+
+.menu a {
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    border-bottom: solid white;
+}
+
+.input1 {
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+label {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.aviso {
+    color: rgba(255, 0, 0, 0.849);
+}
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #572c02; 
+    border: none;
+    color: white;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    filter: brightness(0.8);
+    text-decoration: none;
+}
+
+.produto {
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 350px;
+    min-height: 350px;
+}
