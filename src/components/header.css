@@ -1,0 +1,82 @@
+header {
+    background-color: #964B00;
+    border-bottom: solid #572c02;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+header img {
+    width: 80px;
+    height: 40%;
+    cursor: pointer;
+}
+
+.menu {
+    background: transparent;
+    align-items: center;
+    text-align: center;
+}
+
+.menu a {
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    border-bottom: solid white;
+}
+
+.social {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.social a span {
+    margin-left: 6px;
+    display: none;
+}
+
+.social a:hover span {
+    display: inline;
+}
+
+.social img {
+    width: 32px;
+}
+
+.social a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.redes img {
+    width: 52px;
+    margin-top: 20px;
+}
+
+ul {
+    margin-top: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30;
+}

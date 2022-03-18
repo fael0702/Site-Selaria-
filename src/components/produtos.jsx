@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {BrowserRouter, Link} from 'react-router-dom'
 import './produtos.css';
 
 const Produtos = props => {
@@ -18,8 +19,12 @@ const Produtos = props => {
         <div className="card">
 
             <div>
-                <p>{nome}</p>
-                <img className='produto' src={src} alt={alt}></img>
+                <BrowserRouter>
+                    <Link to='/Comprar'>
+                        <p>{nome}</p>
+                        <img className='produto' src={src} alt={alt}></img>
+                    </Link>
+                </BrowserRouter>
             </div>
             {estoque > 0 ?
                 (
