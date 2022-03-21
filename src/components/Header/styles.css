@@ -80,3 +80,7 @@ li a {
     color: white;
     font-size: 30;
 }
+
+a {
+    text-decoration: none;
+}

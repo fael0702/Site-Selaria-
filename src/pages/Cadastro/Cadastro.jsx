@@ -1,12 +1,12 @@
 import React from 'react';
-import './cadastro.css'
+import './styles.css'
 
-import Header from '../components/header.jsx'
-import Footer from '../components/footer.jsx'
+import { Header } from '../../components/Header/header';
+import { Footer } from '../../components/Footer/footer';
 
-const Cadastro = () => {
+export function Cadastro() {
     return (
-        <div>
+        <>
             <Header />
             <form>
 
@@ -36,9 +36,7 @@ const Cadastro = () => {
                 </div>
                 <input type="submit" name="acao" value="Enviar" />
             </form>
-            <Footer />
-        </div>
+        <Footer />
+        </>
     )
 }
-
-export default Cadastro 

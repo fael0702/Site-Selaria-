@@ -1,18 +1,17 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Cadastro from '../pages/Cadastro.jsx'
-import Comprar from '../pages/Comprar'
-import App from '../App.jsx'
+import { Routes, Route} from 'react-router-dom'
+import { Cadastro } from '../pages/Cadastro/Cadastro.jsx'
+import { Inicio } from '../pages/Inicio/Home.jsx'
+import { Comprar } from '../pages/Compras/Comprar.jsx'
+import { Principal } from '../components/Principal/principal.jsx'
 
-const Rotas = () => {
+export function Rotas() {
+    
     return(
-        <BrowserRouter>
             <Routes>
-                <Route path='/' element={<App/>}/>
-                <Route path='/Cadastro' element={<Cadastro/>}/>
-                <Route path='/Comprar'element={<Comprar/>}/>
+                <Route path='/' element={<Inicio/>}/>
+                <Route path='/cadastro' element={<Cadastro/>}/>
+                <Route path='/comprar/:id' element={<Comprar/>}/>
+                <Route path='/principal' element={<Principal/>}/>
             </Routes>
-        </BrowserRouter>
     )
 }
-
-export default Rotas

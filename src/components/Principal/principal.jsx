@@ -1,6 +1,6 @@
-import './produtos.css';
+import './styles.css';
 
-const principal = props => {
+export const Principal = (props) => {
 
     let { nome } = props;
     let { src } = props;
@@ -21,11 +21,11 @@ const principal = props => {
 
             <div>
                 <ul>
-                    <li><button className="botao">Comprar</button></li>
+                    <li>
+                        <a href="/principal"><button className="botao">Comprar</button></a>
+                    </li>
                 </ul>
             </div>
         </div>
     )
 }
-
-export default principal 

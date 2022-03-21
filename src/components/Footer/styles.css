@@ -43,3 +43,7 @@ footer img {
   height: 40%;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+}

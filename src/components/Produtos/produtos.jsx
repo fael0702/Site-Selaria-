@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import {BrowserRouter, Link} from 'react-router-dom'
-import './produtos.css';
+import './styles.css'
 
-const Produtos = props => {
+export const Produtos = (props) => {
 
     let { alt } = props;
     let { nome } = props;
@@ -19,12 +18,10 @@ const Produtos = props => {
         <div className="card">
 
             <div>
-                <BrowserRouter>
-                    <Link to='/Comprar'>
-                        <p>{nome}</p>
-                        <img className='produto' src={src} alt={alt}></img>
-                    </Link>
-                </BrowserRouter>
+
+                <p>{nome}</p>
+                <img className='produto' src={src} alt={alt}></img>
+
             </div>
             {estoque > 0 ?
                 (
@@ -41,13 +38,15 @@ const Produtos = props => {
 
             <div>
                 <ul>
-                    <li><button className="botao">Comprar</button></li>
+                    <li>
+                        <a href='/comprar/:id'>
+                            <button className="botao">Comprar</button>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
-        
-        
-    )
-}
 
-export default Produtos
+
+    );
+}
