@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './styles.css'
 
 export const Produtos = (props) => {
+
 
     let { alt } = props;
     let { nome } = props;
     let { src } = props;
     let min = 0
     let max = 30
+    const navigate = useNavigate()
 
     let aleatorio = Math.floor(Math.random() * (max - min) + min);
 
