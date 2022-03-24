@@ -1,0 +1,44 @@
+.card {
+    display: inline-block;
+    margin: 20px;
+    border: 5px solid;
+    background-color: #964b006e;
+    border-color: #572c02;
+    border-radius: 8px; 
+    margin: 20px;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.aviso {
+    color: rgba(255, 0, 0, 0.849);
+}
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #572c02; 
+    border: none;
+    color: white;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    filter: brightness(0.8);
+    text-decoration: none;
+}
+
+.produto {
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 350px;
+    min-height: 350px;
+}

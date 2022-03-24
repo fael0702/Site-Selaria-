@@ -6,7 +6,7 @@ import { Principal } from '../../components/Principal/principal';
 import { Header } from '../../components/Header/header';
 import { Footer } from '../../components/Footer/footer';
 
-import guaiaca from '../../img/guaiaca.png'
+import guaiaca from '../../img/guaiaca.png' 
 import cinto from '../../img/cinto.png'
 import bala from '../../img/bala.png'
 import faca from '../../img/faca.png'
