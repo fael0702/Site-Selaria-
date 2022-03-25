@@ -26,7 +26,7 @@ export const Produtos = (props) => {
             <div>
                 <ul>
                     <li>
-                        <a href= {`/comprar/:${id}`}>
+                        <a href= {`/comprar/${id}`}>
                             <button className="botao">Comprar</button>
                         </a>
                     </li>
